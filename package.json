@@ -1,0 +1,35 @@
+{
+  "name": "cube-root",
+  "description": "Polyfill for `Math.cbrt()` proposed in ES6 for getting the cube root of a number.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/cube-root",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/cube-root.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/cube-root/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/cube-root/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [],
+  "dependencies": {
+    "nth-root": "^0.1.0"
+  }
+}
